@@ -29,3 +29,7 @@ def deactivate [] {
 def "greet" [] {
   "Hello World!"
 }
+
+def "wp" [] {
+  which python | get path.0
+}
