@@ -97,5 +97,8 @@ $env.NU_PLUGIN_DIRS = [
 # path add ($env.HOME | path join ".local" "bin")
 # $env.PATH = ($env.PATH | uniq)
 
+$env.GIT_EDITOR = "helix"
+$env.EDITOR = "helix"
+
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
