@@ -17,6 +17,10 @@ def "venv deactivate" [] {
 #
 # This very crudely takes the third last element of the `which python` path.
 def "venv current" [] {
-  let pyenv = which python | get path.0 | path split | reverse | get 2
-  echo $pyenv
+  let pyenv_path = which python | get path.0 | path split | reverse
+  if (($pyenv_path | length) >= 3) {
+    echo $pyenv_path | get 2
+  } else {
+    echo "base"
+  }
 }
