@@ -4,7 +4,7 @@ if ($env.config? | is-not-empty) {
 }
 
 $env.POWERLINE_COMMAND = 'oh-my-posh'
-$env.POSH_THEME = (echo ".poshthemes/amro.omp.json")
+$env.POSH_THEME = (echo "~/.config/nushell/.poshthemes/amro.omp.json")
 $env.PROMPT_INDICATOR = ""
 $env.POSH_SESSION_ID = (echo "e07f5084-b7d9-4ffd-8e1f-3118eda06650")
 $env.POSH_SHELL_VERSION = (version | get version)
