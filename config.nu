@@ -3,6 +3,10 @@
 # version = "0.97.1"
 
 # Initialize oh-my-posh.nu at shell startup by adding this line in your config.nu file
+source venv.nu
+$env.PYENV = (venv current)
+
+
 source oh-my-posh.nu
 
 # source custom aliases

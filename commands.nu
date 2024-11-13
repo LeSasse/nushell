@@ -15,20 +15,11 @@ def "math describe" [] {
     )
 }
 
-# Source a python venv and invoke a nu subshell.
-def "source-venv" [
-  path: string
-] {
-  sh -i -c $'source ($path) ; nu'
-}
-
-def deactivate [] {
-  exit
-}
 
 def "greet" [] {
   "Hello World!"
 }
+
 
 def "wp" [] {
   which python | get path.0

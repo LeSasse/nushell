@@ -5,6 +5,12 @@
       "alignment": "left",
       "segments": [
         {
+          "foreground": "#FFFFFF",
+          "style": "plain",
+          "template": "({{ .Env.PYENV }}) ",
+          "type": "session"
+        },
+        {
           "foreground": "#45F1C2",
           "style": "plain",
           "template": "\ueb99 {{ .UserName }} on",
