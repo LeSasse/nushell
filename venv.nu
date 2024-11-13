@@ -1,6 +1,11 @@
 # Manage venv python virtual environments in nushell.
 def "venv" [] {}
 
+def "venv create" [name: string] {
+  python3 -m venv $name
+  venv activate $name
+}
+
 # Source a python venv and invoke a nu subshell.
 def "venv activate" [
   path: string # Path to the virtual environment (not the activation script).
