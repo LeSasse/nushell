@@ -3,7 +3,7 @@
 # version = "0.97.1"
 
 # Initialize oh-my-posh.nu at shell startup by adding this line in your config.nu file
-source .oh-my-posh.nu
+source oh-my-posh.nu
 
 # source custom aliases
 source alias.nu
