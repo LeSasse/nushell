@@ -7,7 +7,7 @@
         {
           "foreground": "#FFFFFF",
           "style": "plain",
-          "template": "({{ .Env.PYENV }}) ",
+          "template": "(\uec16 {{ .Env.PYENV }}) ",
           "type": "session"
         },
         {
