@@ -53,7 +53,7 @@
         {
           "foreground": "#CD4277",
           "style": "plain",
-          "template": "> ",
+          "template": "\uea9c ",
           "type": "text"
         }
       ],
