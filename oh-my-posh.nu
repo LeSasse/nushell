@@ -9,7 +9,7 @@ $env.PROMPT_INDICATOR = ""
 $env.POSH_SESSION_ID = (echo "e07f5084-b7d9-4ffd-8e1f-3118eda06650")
 $env.POSH_SHELL_VERSION = (version | get version)
 
-let _omp_executable: string = (echo "/usr/bin/oh-my-posh")
+let _omp_executable: string = (echo "oh-my-posh")
 
 # PROMPTS
 

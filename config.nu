@@ -15,6 +15,7 @@ source alias.nu
 source commands.nu
 source git.nu
 source gutenberg.nu
+source azure.nu
 
 # For more information on defining custom themes, see
 # https://www.nushell.sh/book/coloring_and_theming.html

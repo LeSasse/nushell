@@ -11,7 +11,7 @@ def "venv create" [name: string] {
 def "venv activate" [
   path: string # Path to the virtual environment (not the activation script).
 ] {
-  sh -i -c $'source ($path)/bin/activate ; nu'
+  bash -c $'source ($path)/bin/activate && nu '
 }
 
 # Deactivate the current venv by exiting the subshell.
